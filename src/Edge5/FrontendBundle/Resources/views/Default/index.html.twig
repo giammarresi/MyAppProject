@@ -2,7 +2,9 @@
 
 {% block content %}
 <p>
-    Hello {{ name }}!
+    Hello World, my name is {{ name }}!
+
+    {{ 'myfirstkey'|trans }}
 </p>
 <p>
     This <a href="{{ url('_home') }}">Page Home</a>.
